@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
-
+import  './Card.css'
 
 function Card(props) {
     let review = props.review
@@ -39,6 +39,3 @@ function Card(props) {
 }
 
 export default Card
-
-
-
