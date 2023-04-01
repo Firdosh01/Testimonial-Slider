@@ -1,13 +1,15 @@
 import React from 'react'
 import Testimonials from './Testimonials'
 import reviews from './data'
+import  './Card.css'
+
 
 function App() {
 
   return (
-    <div>
+    <div className='body'>
 
-      <div>
+      <div className='heading-text'>
         <h1>Our Testimonials</h1>
       </div>
 
