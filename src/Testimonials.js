@@ -32,7 +32,7 @@ function Testimonials(props) {
   return (
     <div className='relative'>
       
-      <Card review = {reviews[0]} /> 
+      <Card review = {reviews[index]} /> 
 
       <div className='left-icon' onClick={leftShiftHandler}>
         < FaChevronLeft />

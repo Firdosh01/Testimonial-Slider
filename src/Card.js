@@ -1,5 +1,4 @@
 import React from 'react'
-// import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
 import  './Card.css'
 
 function Card(props) {
@@ -14,7 +13,7 @@ function Card(props) {
       </div>
 
       <div className='logo'>
-        <img src={review.image} />
+        <img src={review.image}  />
       </div>
 
       <div>
