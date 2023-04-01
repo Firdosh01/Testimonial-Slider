@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
+// import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
 import  './Card.css'
 
 function Card(props) {
@@ -21,16 +21,6 @@ function Card(props) {
         <p>{review.name}</p>
         <p>{review.job}</p>
       </div>
-
-      <div className='left-icon'>
-        < FaChevronLeft />
-      </div>
-      
-
-      <div className='right-icon'>
-        < FaChevronRight />
-      </div>
-
 
 
 
