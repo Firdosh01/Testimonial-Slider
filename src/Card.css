@@ -33,7 +33,7 @@
 }
 .left-icon{
     position: absolute;
-    left: -10px;
+    left: -4px;
     font-size: 30px;
     box-shadow: 0 0 1rem rgba(1, 17, 39, 0.15) ;
     background-color: white;
@@ -54,4 +54,33 @@
     padding: 10px;
     cursor: pointer;
     transform:  translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 724px){
+    .wrapper{
+        width: 400px;
+    
+    }
+
+    
+}
+
+@media screen and (max-width: 534px){
+    .wrapper{
+        width: 300px;
+        border-radius: 10px;
+        padding: 20px 5px;
+    
+    }
+    .left-icon{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .right-icon{
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    
 }
